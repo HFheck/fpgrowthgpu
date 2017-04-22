@@ -1,0 +1,145 @@
+﻿生成启动时间为 2016/9/18 18:59:19。
+     1>项目“F:\cuda\fpgrowth_cuda\fpgrowth_cuda\fpgrowth_cuda.vcxproj”在节点 2 上(Rebuild 个目标)。
+     1>CudaClean:
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmpd8dfbe6e11a64092bbf21018278a2006.cmd"
+         "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\main.cu" -clean
+         
+         F:\cuda\fpgrowth_cuda\fpgrowth_cuda>"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin"  -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile   -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\main.cu" -clean 
+         main.cu
+       AddCudaCompileDeps:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\cl.exe /E /nologo /showIncludes /TP /D__CUDACC__ /DWIN32 /D_DEBUG /D_CONSOLE /D_MBCS /I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" /I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin" /I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" /I. /FIcuda_runtime.h /c F:\cuda\fpgrowth_cuda\fpgrowth_cuda\main.cu 
+       CudaBuild:
+         Compiling CUDA source file main.cu...
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp51f1372e47424fcb825c9c91cb6ac2d2.cmd"
+         "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2013 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\main.cu"
+         
+         F:\cuda\fpgrowth_cuda\fpgrowth_cuda>"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env --cl-version 2013 -ccbin "D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin" -rdc=true -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include" -I"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\include"  -G   --keep-dir Debug -maxrregcount=0  --machine 32 --compile -cudart static  -g   -DWIN32 -D_DEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -o Debug\main.cu.obj "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\main.cu" 
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(53): warning : integer conversion resulted in a change of sign
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(70): warning : integer conversion resulted in a change of sign
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(910): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(1903): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(2843): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(3779): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(4721): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(5723): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(6682): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(7610): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(8543): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(9413): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(10391): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions_decls.h(11435): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(775): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_functions.h(1621): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\device_double_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\sm_20_intrinsics.h(943): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(53): warning : integer conversion resulted in a change of sign
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(70): warning : integer conversion resulted in a change of sign
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h : warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(859): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(1807): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(2657): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(3541): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(4492): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(5412): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(6320): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(7195): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+     1>d:\nvida gpu computing\toolkit\cuda\v7.5\include\math_functions.h(8066): warning C4819: 该文件包含不能在当前代码页(936)中表示的字符。请将该文件保存为 Unicode 格式以防止数据丢失
+         main.cu
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(42): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(43): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\data_struct.cuh(122): warning C4018: “<”: 有符号/无符号不匹配
+     1>f:\cuda\fpgrowth_cuda\fpgrowth_cuda\build_bitMatrix.cuh(12): warning C4018: “<”: 有符号/无符号不匹配
+     1>F:/cuda/fpgrowth_cuda/fpgrowth_cuda/main.cu(65): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+     1>F:/cuda/fpgrowth_cuda/fpgrowth_cuda/main.cu(164): warning C4244: “初始化”: 从“double”转换到“unsigned int”，可能丢失数据
+       CudaLink:
+         cmd.exe /C "C:\Users\Administrator\AppData\Local\Temp\tmp4b2d2a03879b4ecfbc62daddcd80a965.cmd"
+         "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -dlink -o Debug\fpgrowth_cuda.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 32 Debug\main.cu.obj
+         
+         F:\cuda\fpgrowth_cuda\fpgrowth_cuda>"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\nvcc.exe" -dlink -o Debug\fpgrowth_cuda.device-link.obj -Xcompiler "/EHsc /W3 /nologo /Od /Zi /RTC1 /MDd " -L"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudadevrt.lib  -gencode=arch=compute_52,code=sm_52 -G --machine 32 Debug\main.cu.obj 
+         cudart.lib
+         kernel32.lib
+         user32.lib
+         gdi32.lib
+         winspool.lib
+         comdlg32.lib
+         advapi32.lib
+         shell32.lib
+         ole32.lib
+         oleaut32.lib
+         uuid.lib
+         odbc32.lib
+         odbccp32.lib
+         cudadevrt.lib
+         main.cu.obj
+       Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\fpgrowth_cuda.exe" /INCREMENTAL /NOLOGO /LIBPATH:"D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\lib\Win32" cudart.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib cudadevrt.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\fpgrowth_cuda.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\fpgrowth_cuda.lib" /MACHINE:X86 Debug\main.cu.obj
+         "Debug\fpgrowth_cuda.device-link.obj"
+         fpgrowth_cuda.vcxproj -> F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\fpgrowth_cuda.exe
+       PostBuildEvent:
+         echo copy "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\cudart*.dll" "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\"
+         copy "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\cudart*.dll" "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\"
+         :VCEnd
+         copy "D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\cudart*.dll" "F:\cuda\fpgrowth_cuda\fpgrowth_cuda\Debug\"
+         D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\cudart32_75.dll
+         D:\NVIDA GPU Computing\Toolkit\CUDA\v7.5\bin\cudart64_75.dll
+         已复制         2 个文件。
+     1>已完成生成项目“F:\cuda\fpgrowth_cuda\fpgrowth_cuda\fpgrowth_cuda.vcxproj”(Rebuild 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:07.27
