@@ -1,0 +1,1 @@
+.\Newfpgrowth_cuda.exe 0.7 <mushroom.dat >output70.txt 2>time70.txt

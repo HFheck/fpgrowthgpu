@@ -1,0 +1,1 @@
+.\Newfpgrowth_cuda.exe 0.03 <retail.dat >output3.txt 2>time3.txt

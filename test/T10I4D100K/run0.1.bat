@@ -1,0 +1,1 @@
+.\Newfpgrowth_cuda.exe 0.001 <T10I4D100K.dat >output0.1.txt 2>time0.1.txt

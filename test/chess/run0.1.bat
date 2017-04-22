@@ -1,0 +1,1 @@
+.\Newfpgrowth_cuda.exe 0.001 <chess.dat >output0.1.txt 2>time0.1.txt

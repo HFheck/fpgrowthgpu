@@ -1,0 +1,1 @@
+.\Newfpgrowth_cuda.exe 0.6 <input.txt >output.txt 2>time.txt
